@@ -1,0 +1,584 @@
+@media screen and (max-width: 1024px){
+
+    .mainMenu ul{
+        gap: 26px;
+    }
+    .logo img {
+        width: 130px;
+    }
+    .mainMenu a{
+        font-size: 16px;
+    }
+    .heroCont h1{
+        font-size: 60px;
+    }
+    .heroContBlk{
+        padding: 0 50px;
+    }
+    .heroCont p{
+        font-size: 16px;
+    }
+    .title h3{
+        font-size: 38px;
+    }
+    p,
+    .primeBtn a{
+        font-size: 17px;
+    }
+    .prImg img{
+        object-fit: cover;
+        height: 100%;
+    }
+    .prImg{
+        height: 100%;
+    }
+    .prSecBlk .prCont{
+        padding: 14px;
+        bottom: 4px;
+    }
+    .prSecBlk .prCont p {
+        font-size: 16px;
+    }
+    .prSecBlk .prSecCont{
+        top: 0px;
+    }
+    .prLgBlk{
+        padding: 20px;
+    }
+    .prLgCont h4{
+        font-size: 28px;
+    }
+    .dinProduct .col-md-3{
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    .prSecBlk .prCont img{
+        width: 80px;
+    }
+    .prSecBlk .prSecCont img{
+        width: 142px;
+    }
+    .prLgIco img {
+        width: 130px;
+    }
+    
+    .dinAbtCont{
+        padding:50px 20px;
+        padding-left: 28px;
+    }
+    .dinAbtImg {
+        height: 100%;
+    }
+    .dinAbtImg img{
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+    .dinAbtImg::after{
+        display: none;
+    }
+    .dinAbout .row{
+        align-items: normal;
+    }
+    .title .subTitle{
+        font-size: 18px;
+    }
+    .dinAbtCont .title h3{
+        margin-bottom: 0;
+    }
+    .abtCont p span{
+        font-size: 18px;
+    }
+    .dinClient,
+    .DinWedo,
+    section{
+        padding-top: 96px;
+    }
+    .cli-img img{
+        width: 130px;
+    }
+    .corLogic img{
+        width: 90px;
+    }
+    .cli-img{
+        height: 140px;
+    }
+    footer{
+        margin-top: 90px;
+    }
+    .newsHmImg{
+        height: 100%;
+    }
+    .newsHmCont h2 {
+        margin-bottom: 9px;
+        font-size: 22px;
+    }
+    .dinClient h2{
+        font-size: 32px;
+    }
+
+    /* PRODUCT/SERVICES */
+    .pgHeadCont h1{
+        font-size: 40px;
+    }
+    .pageHeader{
+        height: 420px;
+        min-height: 400px;
+    }
+    .dinProdBlk{
+        padding: 20px;
+    }
+    .dinProImg img{
+        width: 130px;
+    }
+    .techImg img{
+        width: 160px;
+    }
+    .dinProCont h2{
+        font-size: 20px;
+    }
+    .dinProCont p{
+        font-size: 16px;
+    }
+    .dinProCont a{
+        font-size: 16px;
+    }
+    .dinService{
+        padding-bottom: 96px;
+    }
+    .serCont p{
+        padding-right: 0;
+    }
+    .serBlk {
+        gap: 22px;
+    }
+    .serCont h2{
+        font-size: 20px;
+    }
+    .logImg img{
+        width: 100px;
+    }
+    .dinPartner{
+        margin-top: 96px;
+    }
+    .dinPartner .servicePara h2{
+        font-size: 38px;
+    }
+    .dinJoinImg img{
+        width: 180px;
+    }
+    .dinAbtinCont .bgPara {
+        font-size: 20px;
+    }
+    .dinVM{
+        margin-top: 96px;
+        height: 480px;
+    }
+    .dnVmBlk{
+        gap: 40px;
+    }
+    .dnVmCont p {
+        font-size: 19px;
+    }
+    .whyChoseBlk{
+        padding-bottom: 30px;
+    }
+    .whyCont h3{
+        font-size: 25px;
+    }
+    .whyChooseCont{
+        padding-left: 65px;
+    }
+    .chooseHdTitle h3{
+        font-size: 42px;
+    }
+    .dinChoosePara p{
+        font-size: 18px;
+    }
+    .cntInfBlk h4{
+        font-size: 24px;
+    }
+    .dinContact .cntInfBlk{
+        padding: 20px;
+    }
+    .cntInfBlk li{
+        padding-left: 54px;
+    }
+    .contfrmImg::after{
+        display: none;
+    }
+    .contfrmImg img{
+        position: relative;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contfrmImg{
+        height: 100%;
+    }
+    .dinContactForm .row{
+        align-items: normal;
+    }
+    .contactContainer{
+        padding: 30px;
+    }
+    .cntInput label,
+    .cntInput input, .cntInput textarea,
+    .cntInput a{
+        font-size: 16px;
+    }
+    .cntInput input, .cntInput textarea{
+        margin-bottom: 30px;
+    }
+    .cntInput a{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    
+    .togBlk{
+        display: none;
+    }
+    .mainMenu ul{
+        display: block;
+    }
+    .mainMenu{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(10%);
+        transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .mainMenu.show{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+    .resTogg{
+        display: block;
+        position: relative;
+        z-index: 22;
+    }
+    .resTogg span{
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: #fff;
+        z-index: 22;
+        transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+        margin: 6px 0;
+    }
+    .resTogg.open span:nth-child(2){
+        width: 0;
+  
+    }
+    .resTogg.open span:nth-child(1){
+        transform: rotate(45deg) translate(7px, 5px);
+    }
+    .resTogg.open span:nth-child(3){
+        transform: rotate(-45deg) translate(7px, -5px);
+    }
+    .mainMenu li a{
+        display: block;
+    }
+    .mainMenu ul{
+        margin-top: 140px;
+        padding: 0 22px;
+    }
+    .mainMenu li{
+        margin-bottom: 40px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 6px;
+    }
+    .mainMenu li a{
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+      .heroContBlk {
+        padding: 0 30px;
+    }
+    .heroCont h1{
+        font-size: 43px;
+    }
+    .herLin::after{
+        right: 10px;
+    }
+    .title h3,
+    .dinClient h2 {
+        font-size: 28px;
+    }
+    .dnPrBlk {
+        margin-bottom: 40px;
+    }
+    .dinProduct .col-md-6{
+        margin-bottom: 40px;
+    }
+    .prLgCont h4 {
+        font-size: 32px;
+    }
+    .prSecBlk .prCont{
+        bottom: 18px;
+        padding: 28px;
+    }
+    .prSecBlk .prSecCont {
+        top: 18px;
+    }
+    .dinProduct{
+        padding-bottom: 96px;
+    }
+    .dinAbtCont{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .abtCont p{
+        padding-right: 0;
+        padding-right: 28px;
+    }
+    .title .subTitle {
+        font-size: 16px;
+    }
+    p, .primeBtn a{
+        font-size: 16px;
+    }
+    .col-lg-two{
+        width: 40%;
+        padding-left: 12px;
+        margin-bottom: 12px;
+      }
+      .clientlogoBlk .row{
+        justify-content: center;
+      }
+      .newsHdTitle p{
+        padding-right: 0;
+      }
+      .newsHdTitle p{
+        font-size: 16px;
+      }
+      .ftrPl{
+        padding-left: 0;
+      }
+      .resMB{
+        margin-bottom: 60px;
+      }
+      .herLin::after{
+        display: none;
+      }
+      .heroCont{
+        margin-bottom: 30px;
+      }
+      .heroCont p{
+        font-size: 18px;
+      }
+
+      /* PRODUCT AND SERVICE */
+      .pgHeadCont h1 {
+        font-size: 35px;
+        max-width: 500px;
+    }
+    .dinProduct .col-md-12{
+        margin-bottom: 40px;
+    }
+    .serBlk{
+        display: block;
+    }
+    .serIco {
+        width: 20%;
+        margin-bottom: 12px;
+    }
+
+    /* PARTNERS AND DISTRIBUTORS */
+    .dinPartner .servicePara h2 {
+        font-size: 28px;
+    }
+    .accImg img {
+        width: 45px;
+        display: block;
+    }
+    .dinAbtinCont{
+        padding-left: 15px;
+    }
+ 
+    .dinAbtInImg::after{
+        padding-top: 180%;
+    }
+    .dinAbtInImgBlk::after{
+        width: 95%;
+        height: 98%;
+    }
+    .dinAbtinCont .bgPara {
+        font-size: 18px;
+    }
+    .dnVmBlk{
+        margin-bottom: 40px;
+    }
+    .vmIco img {
+        width: 50px;
+    }
+    .dnVmico img {
+        width: 70px;
+    }
+    .whyChooseCont {
+        padding-left: 25px;
+    }
+    .chooseHdTitle h3 {
+        font-size: 35px;
+    }
+    .chooseHdTitle h2{
+        font-size: 18px;
+    }
+    .whyCont h3 {
+        font-size: 22px;
+    }
+    .whyIco img {
+        width: 100px;
+    }
+
+    /* BLOG */
+    .blogImg{
+        height: 100%;
+    }
+    .blogImg img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .blogBlk{
+        align-items: normal;
+    }
+    .blogBlkCont{
+        padding: 35px;
+    }
+    .blogBlkCont h2{
+        font-size: 20px;
+    }
+    .blogBlkCont p{
+        padding-right: 0;
+    }
+
+    /* CONTACT */
+    .cntInfBlk h4 {
+        font-size: 20px;
+    }
+    .dinContact .cntInfBlk {
+        padding: 12px;
+    }
+    .cntInfBlk li img{
+        width: 30px;
+    }
+    .cntInfBlk li {
+        padding-left: 44px;
+    }
+    .dinContactForm{
+        margin-top: 96px;
+    }
+    .contactContainer {
+        padding:40px 20px;
+    }
+    .contactCont h2{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:662px) {
+    .heroCont h1 {
+        font-size: 35px;
+    }
+    .heroCont p {
+        font-size: 17px;
+    }
+    .dinClient, .DinWedo, section {
+        padding-top: 80px;
+    }
+    .prLgCont h4 {
+        font-size: 38px;
+    }
+    .prSecBlk .prCont p {
+        font-size: 20px;
+    }
+    .col-lg-two{
+        width: 50%;
+    }
+    .newHmblk{
+        display: block;
+    }
+    .newsHmImg{
+        margin-bottom: 10px;
+    }
+    .newsHmCont{
+        width: 100%;
+    }
+    footer{
+        padding: 60px 0;
+    }
+    .ftrContacat{
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .ftrPl{
+        padding-bottom: 40px;
+    }
+
+    /* PRODUCT SERVICE */
+    .pageHeader {
+        height: 380px;
+        min-height: 360px;
+    }
+    .pgHeadCont h1{
+        font-size: 30px;
+    }
+    .title h3, .dinClient h2 {
+        font-size: 25px;
+    }
+    .dinProduct {
+        padding-bottom: 80px;
+    }
+    .serviceContain .col-md-6:nth-child(2){
+        padding-left: 15px;
+    }
+    .serIco img {
+        width: 55px;
+    }
+    .dinJoinImg img {
+        width: 140px;
+    }
+    .dinAbtinCont{
+        margin-top: 40px;
+    }
+    .dinAbtinCont{
+        padding-left: 0;
+    }
+  .dinVM{
+    padding-top: 40px;
+  }
+  .dnVmCont p {
+    font-size: 17px;
+}
+.chooseHdTitle h3 {
+    font-size: 28px;
+}
+.whyChooseCont{
+    padding-left: 0;
+}
+.whyChooseCont::before{
+    display: none;
+}
+.blogBlk{
+    display: block;
+}
+.blogImgBlk,
+.blogBlkCont{
+    width: 100%;
+}
+.blogBlkCont {
+    padding: 25px;
+}
+.dinContactForm .col-md-6{
+    padding-right: 0;
+}
+}
