@@ -233,6 +233,7 @@ transform: rotate(45deg) translate(4px, 4px);
 }
 .DinHero .herLin{
     position: relative;
+    padding-left: 130px;
 }
 .herLin::after {
     content: "";
@@ -243,6 +244,9 @@ transform: rotate(45deg) translate(4px, 4px);
     bottom: 0;
     right: 30px;
     position: absolute;
+}
+.heroTxt{
+  padding-right: 93px;
 }
 
 /* WHAT WE DO */
@@ -286,12 +290,15 @@ transform: rotate(45deg) translate(4px, 4px);
     padding: 30px;
     height: 100%;
 }
+.dinProdBLk{
+  height: 100%;
+}
 .prLgIco img{
-    width: 170px;
+    width: 137px;
 }
 .prLgBlk{
     background-color: #005268;
-    padding: 40px;
+    /* padding: 40px; */
     color: #fff;
 }
 .prLgCont h4{

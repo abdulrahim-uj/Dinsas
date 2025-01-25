@@ -12,6 +12,13 @@
     .heroCont h1{
         font-size: 60px;
     }
+    .DinHero .herLin {
+        position: relative;
+        padding-left: 0;
+    }
+    .heroTxt{
+        padding-right: 0;
+      }
     .heroContBlk{
         padding: 0 50px;
     }
@@ -299,7 +306,11 @@
         font-size: 22px;
         font-weight: 300;
     }
-
+    .DinHero .herLin {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+    }
       .heroContBlk {
         padding: 0 30px;
     }
@@ -313,9 +324,9 @@
     .dinClient h2 {
         font-size: 28px;
     }
-    .dnPrBlk {
+    /* .dnPrBlk {
         margin-bottom: 40px;
-    }
+    } */
     .dinProduct .col-md-6{
         margin-bottom: 40px;
     }
@@ -370,7 +381,8 @@
         display: none;
       }
       .heroCont{
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
+        
       }
       .heroCont p{
         font-size: 18px;
@@ -483,7 +495,19 @@
     .contactCont h2{
         font-size: 28px;
     }
+
+    .prLgBlk{
+        padding: 40px;
+    }
+    .prLgIco img{
+        width: 170px;
+    }
+    .dinProdBLk{
+        height: auto;
+      }
 }
+
+
 
 @media screen and (max-width:662px) {
     .heroCont h1 {
