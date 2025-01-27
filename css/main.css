@@ -157,16 +157,21 @@ transform: rotate(45deg) translate(4px, 4px);
     height: 100vh;
     object-fit: cover;
 }
-.DinHero::after{
-    content: "";
-    display: block;
-    width: 100%;;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #0000005d;
+.hrSlide{
+  position: relative;
 }
+.hrSlide::after{
+  content: "";
+  display: block;
+  width: 100%;;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0000005d;
+
+}
+
 .heroContBlk{
     position: absolute;
     bottom: 80px;
@@ -175,6 +180,7 @@ transform: rotate(45deg) translate(4px, 4px);
     max-width: 1500px;
     margin: auto;
     width: 100%;
+    z-index: 2;
 }
 .heroCont{
     color: #fff;
@@ -183,9 +189,12 @@ transform: rotate(45deg) translate(4px, 4px);
     max-width: 950px;
 }
 .heroCont h1{
-    font-size:clamp(40px, 80vw, 80px);
+    font-size:clamp(40px, 80vw, 68px);
     font-weight: 200;
 
+}
+.heroCont h1 span{
+  display: block;
 }
 .text-mask {
     position: relative;
@@ -197,9 +206,19 @@ transform: rotate(45deg) translate(4px, 4px);
     transform: translateY(100%);
     opacity: 0;
 }
+.text-mask {
+  position: relative;
+  overflow: hidden;
+}
+
+.heroCont p, 
+.heroBtn {
+  transform: translateY(100%);
+  opacity: 0;
+}
 .heroLine {
     display: block;
-    width: calc(100% - 26%);
+    width: calc(100% - 36%);
     height: 2px;
     background-color: #fff; /* or your color */
     margin-top: 20px;
@@ -233,7 +252,6 @@ transform: rotate(45deg) translate(4px, 4px);
 }
 .DinHero .herLin{
     position: relative;
-    padding-left: 130px;
 }
 .herLin::after {
     content: "";
@@ -290,9 +308,7 @@ transform: rotate(45deg) translate(4px, 4px);
     padding: 30px;
     height: 100%;
 }
-.dinProdBLk{
-  height: 100%;
-}
+
 .prLgIco img{
     width: 137px;
 }
@@ -318,20 +334,30 @@ transform: rotate(45deg) translate(4px, 4px);
 }
 .prSecBlk .prCont{
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     color: #fff;
     padding: 30px;
+}
+.prCont p{
+  font-size: 17px;
 }
 .prSecBlk .prCont img{
     width: 90px;
     margin-bottom: 10px;
 }
 .prSecBlk .prSecCont{
-    top: 20px;
+    top: 0;
     padding-right: 24px;
 }
 .prSecBlk .prSecCont img{
     width: 160px;
+}
+.prImg{
+  height: 100%;
+}
+.prImg img{
+  height: 100%;
+  object-fit: cover;
 }
 .dinAbout{
     background-color: #e2e2e2;
@@ -363,11 +389,11 @@ transform: rotate(45deg) translate(4px, 4px);
     position: relative;
     overflow: hidden;
 }
-.dinAbtImg::after{
-    content: "";
-    display: block;
-    padding-top: 80%;
-}
+  .dinAbtImg::after{
+      content: "";
+      display: block;
+      padding-top: 80%;
+  }
 
 .dinAbtImg img{
     position: absolute;
@@ -440,9 +466,9 @@ transform: rotate(45deg) translate(4px, 4px);
     width: 20%;
     height: 100%;
 }
-.newsHmImg img{
+/* .newsHmImg img{
     height: 100%;
-}
+} */
 .newsHmCont{
     width: 80%;
 }

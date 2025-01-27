@@ -1,3 +1,71 @@
+@media screen and (min-width:1030px) and (max-width:1366px) {
+    
+    .dinAbout .row{
+        align-items: normal;
+    }
+    .dinAbtImg::after{
+        display: none;
+    }
+    .dinAbtImg {
+        height: 100%;
+    }
+    .dinAbtCont{
+        padding: 40px;
+    }
+    .title h3{
+        font-size: 38px;
+    }
+    .abtCont p{
+        padding-right: 0;
+    }
+    p{
+        font-size: 18px;
+    }
+    .prSecBlk .prCont{
+        padding: 15px;
+    }
+    .dinProduct .col-lg-3{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .prLgCont h4{
+        font-size: 30px;
+    }
+    .prLgBlk{
+        padding: 20px;
+    }
+    .cli-img img{
+        width: 130px;
+    }
+    .corLogic img {
+        width: 110px;
+    }
+    .ftrContacat{
+        padding-left: 0;
+    }
+    .ftrcntLink a{
+        font-size: 18px;
+    }
+    .copyright p{
+        font-size: 15px;
+    }
+    .heroCont h1{
+        font-size: 52px;
+    }
+    .logo img {
+        width: 130px;
+    }
+    .mainMenu ul {
+        gap: 25px;
+    }
+    .pgHeadCont h1{
+        font-size: 40px;
+    }
+    .dinProdBlk {
+        padding: 20px;
+    }
+
+}
 @media screen and (max-width: 1024px){
 
     .mainMenu ul{
@@ -308,11 +376,15 @@
     }
     .DinHero .herLin {
         position: relative;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
       .heroContBlk {
-        padding: 0 30px;
+        max-width: 720px;
+        padding: 0 15px;
+    }
+    .heroCont{
+        margin-top: 14px;
     }
     .heroCont h1{
         font-size: 43px;
@@ -505,6 +577,9 @@
     .dinProdBLk{
         height: auto;
       }
+      .serCont{
+        width: 100%;
+      }
 }
 
 
@@ -604,5 +679,8 @@
 }
 .dinContactForm .col-md-6{
     padding-right: 0;
+}
+.companyHd{
+    background-position: 9%;
 }
 }
